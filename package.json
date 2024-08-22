@@ -6,6 +6,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "build:wc": "vite build --config vite.wc.config.ts",
     "serve": "vite preview"
   },
   "license": "MIT",
