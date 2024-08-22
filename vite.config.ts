@@ -1,5 +1,8 @@
-import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
+import { defineConfig } from "vite";
+import solidPlugin from "vite-plugin-solid";
+import tailwindcss from "tailwindcss";
+import autoprefixer from "autoprefixer";
+
 // import devtools from 'solid-devtools/vite';
 
 export default defineConfig({
@@ -15,6 +18,11 @@ export default defineConfig({
     port: 3000,
   },
   build: {
-    target: 'esnext',
+    target: "esnext",
+  },
+  css: {
+    postcss: {
+      plugins: [tailwindcss, autoprefixer],
+    },
   },
 });
