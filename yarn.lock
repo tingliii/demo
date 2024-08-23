@@ -715,7 +715,7 @@ babel-plugin-jsx-dom-expressions@^0.38.1:
     html-entities "2.3.3"
     validate-html-nesting "^1.2.1"
 
-babel-preset-solid@^1.8.4:
+babel-preset-solid@^1.8.19, babel-preset-solid@^1.8.4:
   version "1.8.19"
   resolved "https://registry.yarnpkg.com/babel-preset-solid/-/babel-preset-solid-1.8.19.tgz#4c3b39532d538cc28e54fef2fc442325fc1b2cec"
   integrity sha512-F3MoUdx3i4znhStnXUBno+5kGSbvhpbGrPgqfRPrS8W7foVJUOSd1/F9QDyd9dgClHfr+J7V14931eu1PEDDMQ==
