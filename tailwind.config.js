@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{ts,js,tsx,jsx}"],
   theme: {
-    extend: {},
+    container: {
+      padding: "1rem",
+    },
+    extend: {
+      colors: {
+        black: "#000000d9",
+        deleted: "#dc2626",
+        added: "#22c55e",
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
