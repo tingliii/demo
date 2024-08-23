@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{ts,js,tsx,jsx}"],
+  important: true,
   theme: {
     container: {
       padding: "1rem",
