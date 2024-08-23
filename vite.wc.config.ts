@@ -19,19 +19,12 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: "./src/PeApp.ts",
+      entry: "./src/main-wc.ts",
       formats: ["es"],
-      fileName: "pe-app",
+      fileName: "pe-view",
     },
     outDir: "wc-dist",
     target: "esnext",
-    rollupOptions: {
-      output: {
-        globals: {
-          "solid-js": "Solid",
-        },
-      },
-    },
   },
   css: {
     postcss: {
