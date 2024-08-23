@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tab-active {
+  @apply text-light-purple !border-light-purple;
+}

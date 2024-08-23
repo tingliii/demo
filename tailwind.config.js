@@ -11,6 +11,7 @@ export default {
         black: "#000000d9",
         deleted: "#dc2626",
         added: "#22c55e",
+        "light-purple": "#777af2",
       },
     },
   },
