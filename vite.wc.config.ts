@@ -19,7 +19,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: "./src/main-wc.ts",
+      entry: "./src/main-wc.tsx",
       formats: ["es"],
       fileName: "pe-view",
     },
