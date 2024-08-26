@@ -12,6 +12,7 @@ export default {
         deleted: "#dc2626",
         added: "#22c55e",
         "light-purple": "#777af2",
+        "lavender-blue": "#a6aaff",
       },
     },
   },
