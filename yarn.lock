@@ -193,6 +193,13 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
+"@corvu/utils@~0.4.0", "@corvu/utils@~0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@corvu/utils/-/utils-0.4.1.tgz#5cfba16e08b62458f00e229ce108c622b68a789c"
+  integrity sha512-swd/2DUJiXTo9PM5GVbBv3jNlEOwmKWvVOJG2l8Cwu1cokoXknKrDkBSZRz+yf0rFXdbhWhRQMWDPMPwuBnWNg==
+  dependencies:
+    "@floating-ui/dom" "^1.6.10"
+
 "@esbuild/aix-ppc64@0.21.5":
   version "0.21.5"
   resolved "https://registry.yarnpkg.com/@esbuild/aix-ppc64/-/aix-ppc64-0.21.5.tgz#c7184a326533fcdf1b8ee0733e21c713b975575f"
@@ -308,6 +315,40 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz#acad351d582d157bb145535db2a6ff53dd514b5c"
   integrity sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==
 
+"@floating-ui/core@^1.6.0":
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.6.7.tgz#7602367795a390ff0662efd1c7ae8ca74e75fb12"
+  integrity sha512-yDzVT/Lm101nQ5TCVeK65LtdN7Tj4Qpr9RTXJ2vPFLqtLxwOrpoxAHAJI8J3yYWUc40J0BDBheaitK5SJmno2g==
+  dependencies:
+    "@floating-ui/utils" "^0.2.7"
+
+"@floating-ui/dom@^1.5.1", "@floating-ui/dom@^1.6.10":
+  version "1.6.10"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.10.tgz#b74c32f34a50336c86dcf1f1c845cf3a39e26d6f"
+  integrity sha512-fskgCFv8J8OamCmyun8MfjB1Olfn+uZKjOKZ0vhYF3gRmEUXcGOjxWL8bBr7i4kIuPZ2KD2S3EUIOxnjC8kl2A==
+  dependencies:
+    "@floating-ui/core" "^1.6.0"
+    "@floating-ui/utils" "^0.2.7"
+
+"@floating-ui/utils@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.7.tgz#d0ece53ce99ab5a8e37ebdfe5e32452a2bfc073e"
+  integrity sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==
+
+"@internationalized/date@^3.4.0":
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/@internationalized/date/-/date-3.5.5.tgz#7d34cb9da35127f98dd669fc926bb37e771e177f"
+  integrity sha512-H+CfYvOZ0LTJeeLOqm19E3uj/4YjrmOFtBufDHPfvtI80hFAMqtrp7oCACpe4Cil5l8S0Qu/9dYfZc/5lY8WQQ==
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@internationalized/number@^3.2.1":
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/@internationalized/number/-/number-3.5.3.tgz#9fa060c1c4809f23fb3d38dd3f3d1ae4c87e95a8"
+  integrity sha512-rd1wA3ebzlp0Mehj5YTuTI50AQEx80gWFyHcQu+u91/5NgdwBecO8BH6ipPfE+lmQ9d63vpB3H9SHoIUiupllw==
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -351,6 +392,32 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
+
+"@kobalte/core@^0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@kobalte/core/-/core-0.13.4.tgz#0a065503ceddc73af7656319c866b12bef42d3f3"
+  integrity sha512-ElvazoxoQU/z5pQUdHtXAzjiZA60J+Fo36WgO+j8sMvycIGwrlv+Fdr+uXcLSm1onYOYoSG1+vumD3Ce5OYzzw==
+  dependencies:
+    "@floating-ui/dom" "^1.5.1"
+    "@internationalized/date" "^3.4.0"
+    "@internationalized/number" "^3.2.1"
+    "@kobalte/utils" "^0.9.0"
+    "@solid-primitives/props" "^3.1.8"
+    solid-presence "^0.1.6"
+    solid-prevent-scroll "^0.1.4"
+
+"@kobalte/utils@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@kobalte/utils/-/utils-0.9.0.tgz#7e6f889fab648fe3511fc1b2e63e96d6c8b074dd"
+  integrity sha512-TYVCpQcpqo1+0HBn3NXoGEBzxd4tH6Um1oc07nrYw1V7Qq0qbMaYAOnfBc1qhlh7sGV4XZldmb0j13Of0FrZQg==
+  dependencies:
+    "@solid-primitives/event-listener" "^2.2.14"
+    "@solid-primitives/keyed" "^1.2.0"
+    "@solid-primitives/map" "^0.4.7"
+    "@solid-primitives/media" "^2.2.4"
+    "@solid-primitives/props" "^3.1.8"
+    "@solid-primitives/refs" "^1.0.5"
+    "@solid-primitives/utils" "^6.2.1"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -520,7 +587,7 @@
   dependencies:
     "@solid-primitives/utils" "^6.2.3"
 
-"@solid-primitives/event-listener@^2.3.0", "@solid-primitives/event-listener@^2.3.3":
+"@solid-primitives/event-listener@^2.2.14", "@solid-primitives/event-listener@^2.3.0", "@solid-primitives/event-listener@^2.3.3":
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/@solid-primitives/event-listener/-/event-listener-2.3.3.tgz#ab28c8627aa7d6234617867d8b02c80e1b8f0948"
   integrity sha512-DAJbl+F0wrFW2xmcV8dKMBhk9QLVLuBSW+TR4JmIfTaObxd13PuL7nqaXnaYKDWOYa6otB00qcCUIGbuIhSUgQ==
@@ -536,7 +603,19 @@
     "@solid-primitives/rootless" "^1.4.5"
     "@solid-primitives/utils" "^6.2.3"
 
-"@solid-primitives/media@^2.2.5":
+"@solid-primitives/keyed@^1.2.0":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/keyed/-/keyed-1.2.2.tgz#42323c11ecfd9f6e4525af2cb53475ff2dfb4d51"
+  integrity sha512-oBziY40JK4XmJ57XGkFl8j0GtEarSu0hhjdkUQgqL/U0QQE3TZrRo9uhgH7I6VGJKBKG7SAraTPE6S5lVLM1ow==
+
+"@solid-primitives/map@^0.4.7":
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/map/-/map-0.4.11.tgz#da47b68964473ca39beadfe505e62a346527275e"
+  integrity sha512-OAD65RPxMDYv41oAvadPCqedZfDX92BbWLUC+Qwh9okVMDAF/5UM+t1916OAfGV01Cr30d/fxIT1x86P+gFgSQ==
+  dependencies:
+    "@solid-primitives/trigger" "^1.0.11"
+
+"@solid-primitives/media@^2.2.4", "@solid-primitives/media@^2.2.5":
   version "2.2.9"
   resolved "https://registry.yarnpkg.com/@solid-primitives/media/-/media-2.2.9.tgz#bbe1e30b108cd3ece2e214d529e757702eb4dd34"
   integrity sha512-QUmU62D4/d9YWx/4Dvr/UZasIkIpqNXz7wosA5GLmesRW9XlPa3G5M6uOmTw73SByHNTCw0D6x8bSdtvvLgzvQ==
@@ -550,6 +629,13 @@
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@solid-primitives/platform/-/platform-0.1.2.tgz#ce8c697deb23d14cb0e57a76ad9c2b2af13fd51e"
   integrity sha512-sSxcZfuUrtxcwV0vdjmGnZQcflACzMfLriVeIIWXKp8hzaS3Or3tO6EFQkTd3L8T5dTq+kTtLvPscXIpL0Wzdg==
+
+"@solid-primitives/props@^3.1.8":
+  version "3.1.11"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/props/-/props-3.1.11.tgz#bd40c2808ab4e2d4adecbd3ccbad5c3756a72b1c"
+  integrity sha512-jZAKWwvDRHjiydIumDgMj68qviIbowQ1ci7nkEAgzgvanNkhKSQV8iPgR2jMk1uv7S2ZqXYHslVQTgJel/TEyg==
+  dependencies:
+    "@solid-primitives/utils" "^6.2.3"
 
 "@solid-primitives/refs@^1.0.5":
   version "1.0.8"
@@ -602,10 +688,24 @@
     "@solid-primitives/rootless" "^1.4.2"
     "@solid-primitives/utils" "^6.2.1"
 
+"@solid-primitives/trigger@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/trigger/-/trigger-1.0.11.tgz#76512de06b3bcc78cd2dbdd2e1726b889f0fe604"
+  integrity sha512-4oc8grBzBit7ByXgE1aZ0QXfhdlhXaiFjDKYsOhRyUJa8fN4hdr2IgsYqjmHwxyjK+Dm2OUwkCI1bGkaLgtgXg==
+  dependencies:
+    "@solid-primitives/utils" "^6.2.3"
+
 "@solid-primitives/utils@^6.2.1", "@solid-primitives/utils@^6.2.3":
   version "6.2.3"
   resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-6.2.3.tgz#1abed4c74a2696e08bd2e49cf2b86fc8b87a32bd"
   integrity sha512-CqAwKb2T5Vi72+rhebSsqNZ9o67buYRdEJrIFzRXz3U59QqezuuxPsyzTSVCacwS5Pf109VRsgCJQoxKRoECZQ==
+
+"@swc/helpers@^0.5.0":
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.12.tgz#37aaca95284019eb5d2207101249435659709f4b"
+  integrity sha512-KMZNXiGibsW9kvZAO1Pam2JPTDBm+KSHMMHWdsyI/1DbIZjT2A6Gy3hblVXUMEDvUAKq+e0vL0X0o54owWji7g==
+  dependencies:
+    tslib "^2.4.0"
 
 "@types/babel__core@^7.20.4":
   version "7.20.5"
@@ -1451,6 +1551,20 @@ solid-js@^1.8.11:
     seroval "^1.1.0"
     seroval-plugins "^1.1.0"
 
+solid-presence@^0.1.6:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/solid-presence/-/solid-presence-0.1.8.tgz#c8713c7d52122b128d22fc1c0afdb08b0fb93d07"
+  integrity sha512-pWGtXUFWYYUZNbg5YpG5vkQJyOtzn2KXhxYaMx/4I+lylTLYkITOLevaCwMRN+liCVk0pqB6EayLWojNqBFECA==
+  dependencies:
+    "@corvu/utils" "~0.4.0"
+
+solid-prevent-scroll@^0.1.4:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/solid-prevent-scroll/-/solid-prevent-scroll-0.1.10.tgz#709580dd858cd51ef3b9c2ec4389a56684d6eac3"
+  integrity sha512-KplGPX2GHiWJLZ6AXYRql4M127PdYzfwvLJJXMkO+CMb8Np4VxqDAg5S8jLdwlEuBis/ia9DKw2M8dFx5u8Mhw==
+  dependencies:
+    "@corvu/utils" "~0.4.1"
+
 solid-refresh@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/solid-refresh/-/solid-refresh-0.6.3.tgz#d23ef80f04e177619c9234a809c573cb16360627"
@@ -1596,6 +1710,11 @@ ts-interface-checker@^0.1.9:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
+
+tslib@^2.4.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.7.0.tgz#d9b40c5c40ab59e8738f297df3087bf1a2690c01"
+  integrity sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==
 
 typescript@^5.3.3:
   version "5.5.4"
