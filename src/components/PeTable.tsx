@@ -1,10 +1,10 @@
-export function PeTable() {
+export default function PeTable() {
   return (
     <div class="overflow-x-auto">
       <table class="table table-xs">
         <thead>
           <tr>
-            <th></th>
+            <th />
             <th>Name</th>
             <th>Job</th>
             <th>company</th>
@@ -107,7 +107,7 @@ export function PeTable() {
         </tbody>
         <tfoot>
           <tr>
-            <th></th>
+            <th />
             <th>Name</th>
             <th>Job</th>
             <th>company</th>

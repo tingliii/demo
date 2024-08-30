@@ -6,7 +6,7 @@ $ yarn build:wc
 ```
 
 Builds the web component to the `wc-dist` folder.<br>
-Open `Live Server` in the `test.html` file.
+Open the `test.html` file with `Live Server`.
 
 ## VSCode Extension
 
